@@ -1,5 +1,367 @@
 <html>
-  <body>
-    Hello
-  </body>
+	<head>
+		<meta charset="utf-8">
+		<title>MyResume</title>
+		<style>
+			.container {
+				position: relative;
+				height: 769px;
+				width: 100%;
+			}
+			#region1 {
+				display: block;
+				height: 295px;
+				Background-color: gray;
+				border: 1.5px solid black;
+			}
+			#region2 {
+				display: block;
+				height: 1126px;
+				Background-color: goldenrod;
+				border-bottom: 1.5px solid black;
+				border-left: 1.5px solid black;
+				border-right: 1.5px solid black;
+			}
+			.division1 {
+				position: relative;
+				float: left;
+				width: 5%;
+			}
+			.division2 {
+				position: relative;
+				background-color: darkgoldenrod;
+				float: left;
+				width: 25%;
+				height: 1423px;
+				border-top: 1.5px solid black;
+				border-bottom: 1.5px solid black;
+			}
+			.division3 {
+				position: relative;
+				float: right;
+				width: 70%
+			}
+			.uppersection {
+				display: block;
+				height: 295px;
+				background-color: gray;
+				border: 1.5px solid black;
+			}
+			.lowersection {
+				background-color: goldenrod;
+				padding-top: 3px;
+				height: 1123px;
+				border-bottom: 1.5px solid black;
+				border-left: 1.5px solid black;
+				border-right: 1.5px solid black;
+			}
+			tr {
+				padding: 5px;
+			}
+			#profile {
+				display: block;
+				width: 63%;
+				height: 70%;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 40px;
+				border-radius: 50%;
+				opacity: 0.65;
+				border: 2.5px solid black;
+			}
+			#icon {
+				width: 50px;
+				height: 50px;
+				margin-left: 25px;
+				margin-right: 10px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			#header {
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				border-bottom: 1.5px solid black;
+				margin-left: 25px;
+				padding-bottom: 10px;
+			}
+			table {
+				margin-bottom: 25px;
+			}
+			td {
+				font-family: Tahoma, Geneva, sans-serif;
+				font-size: 17px;
+			}
+			#text1 {
+				font-family: Georgia, serif;
+				font-size: 37px;
+				font-weight: bold;
+				color: darkgoldenrod;
+				font-style: italic;
+				text-align: center;
+				text-shadow: 
+				-1px -1px 0 black, 
+				1px -1px 0 black, 
+				-1px 1px 0 black, 
+				1px 1px 0 black;
+				padding-top: 40px;
+				margin-bottom: 0px;
+			}
+			#text2 {
+				font-family: Georgia, serif;
+				font-size: 30px;
+				font-weight: bold;
+				color: darkgoldenrod;
+				font-style: italic;
+				text-shadow:
+				-1px -1px 0 black, 
+				1px -1px 0 black, 
+				-1px 1px 0 black, 
+				1px 1px 0 black;
+				padding-left: 55px;
+				padding-top: 0px;
+			}
+			.details, .detail {
+				border-left: 2.5px solid black;
+				margin-left: 50px;
+				margin-top: 25px;
+				margin-right: 25px;
+			}
+			#edu {
+				padding-left: 25px;
+			}
+			#rating {
+				width: 60px;
+				height: 10px;
+			}
+			.detail {
+				padding-left: 10px;
+				margin-bottom: 25px;
+			}
+			#pad {
+				padding-left: 25px;
+				padding-right: 25px;
+			}
+			#tabledivision2 {
+				position: relative;
+			}
+			.workexperience {
+				margin-top: 10px;
+			}
+			.profilepicture {
+				height: 295px;
+				margin-bottom: -25px;
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div class="division1">
+				<div id="region1"> </div>
+				<div id="region2"> </div>
+			</div>
+			<div class="division2">
+				<div class="profilepicture">
+					<img id="profile" src="Capture.png">
+				</div>
+				<div class="info">
+					<div id="header">INFO</div>
+					<table id="tabledivision2">
+						<tr>
+							<td><img id="icon" src="Picture1.png"></td>
+							<td>
+								<b>Name</b>
+								<br>Amirul Bin Abdullah
+							</td>
+						</tr>
+						<tr>
+							<td><img id="icon" src="Picture6.png"></td>
+							<td>
+								<b>Born</b>
+								<br>30 September 1997
+							</td>
+						</tr>
+						<tr>
+							<td><img id="icon" src="Picture2.png"></td>
+							<td>
+								<b>Address</b>
+								<br>No 213, Permatang Keriang,
+								<br>13110, Penaga, Penang
+							</td>
+						</tr>
+						<tr>
+							<td><img id="icon" src="Picture3.png"></td>
+							<td>
+								<b>Phone</b>
+								<br>011-17075388
+							</td>
+						</tr>
+						<tr>
+							<td><img id="icon" src="Picture4.png"></td>
+							<td>
+								<b>Email</b>
+								<br>amirul19971997
+								<br>@gmail.com
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="social">
+					<div id="header">SOCIAL</div>
+					<table id="tabledivision2">
+						<tr>
+							<td><img id="icon" src="Picture5.png"><td>
+							<td>
+								<b>Facebook</b>
+								<br>/amirulabdullah97
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="references">
+					<div id="header">REFERENCES</div>
+					<table id="tabledivision2">
+						<tr>
+							<td><img id="icon" src="Picture10.png"></td>
+							<td>
+								<b>Atikah Binti Hamid</b>
+								<br>012-4060858
+							</td>
+						</tr>
+						<tr>
+							<td><img id="icon" src="Picture10.png"></td>
+							<td>
+								<b>Abdullah Bin Ismail</b>
+								<br>019-4330858
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="division3">
+				<div class="uppersection">
+					<p id="text1">International Islamic University Malaysia</p>
+					<br>
+					<p id="text2">Computer Science Student</p>
+				</div>
+				<div class="lowersection">
+					<div class="workexperience">
+						<div id="header">WORK EXPERIENCE</div>
+						<table class="details">
+							<tr>
+								<td><img id="icon" src="Picture7.png"></td>
+								<td><b>Pak Lah Roti Canai Restaurant</b>
+									<br>- Waiter
+									<br>- Cashier
+									<br>- Kitchen
+								</td>
+							</tr>
+							<tr>
+								<td><img id="icon" src="Picture7.png"></td>
+								<td><b>Suri Catering & Event Services</b>
+									<br>- Waiter
+								</td>
+							</tr>
+							<tr>
+								<td><img id="icon" src="Picture7.png"></td>
+								<td><b>Bazaar Ampang Jaya (Tepung Pelita Paya Jaras)</b>
+									<br>- Seller
+								</td>
+							</tr>
+							<tr>
+								<td><img id="icon" src="Picture7.png"></td>
+								<td><b>Freelance Programmer</b>
+									<br>- C++
+									<br>- Java
+								</td>
+							</tr>
+							<tr>
+								<td><img id="icon" src="Picture7.png"></td>
+								<td><b>Transporter</b>
+									<br>- Food
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="education">
+						<div id="header">EDUCATION</div>
+						<table class="details">
+							<tr>
+								<td><img id="icon" src="Picture7.png"></td>
+								<td><b>2004-2009</b></td>
+								<td id="edu"><b>Sekolah Kebangsaan Pasir Gebu</b>
+									<br>UPSR
+								</td>
+							</tr>
+							<tr>
+								<td><img id="icon" src="Picture7.png"></td>
+								<td><b>2010-2014</b></td>
+								<td id="edu"><b>Mara Junior Science College Kepala Batas</b>
+									<br>PMR & SPM
+								</td>
+							</tr>
+							<tr>
+								<td><img id="icon" src="Picture7.png"></td>
+								<td><b>2015-2017</b></td>
+								<td id="edu"><b>Centre for Foundation Studies IIUM Petaling Jaya</b>
+									<br>Foundation in Information and Communication Technology
+								</td>
+							</tr>
+							<tr>
+								<td><img id="icon" src="Picture7.png"></td>
+								<td><b>2017-2021</b></td>
+								<td id="edu"><b>International Islamic University Malaysia</b>
+									<br>Bachelor of Computer Science
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="skillsandexpertize">
+						<div id="header">SKILLS & EXPERTIZE</div>
+						<table class="detail">
+							<tr>
+								<td id="pad">C++</td>
+								<td><img id="rating" src="new8.png"></td>
+								<td id="pad">Java</td>
+								<td><img id="rating" src="new8.png"></td>
+								<td id="pad">HTML</td>
+								<td><img id="rating" src="new9.png"></td>
+							</tr>
+							<tr>
+								<td id="pad">JavaScript</td>
+								<td><img id="rating" src="new8.png"></td>
+								<td id="pad" >Language</td>
+								<td><img id="rating" src="new9.png"></td>
+								<td id="pad">CSS</td>
+								<td><img id="rating" src="new10.png"></td>
+							</tr>
+							<tr>
+								<td id="pad">Creativity</td>
+								<td><img id="rating" src="new10.png"></td>
+								<td id="pad">Flexibility</td>
+								<td><img id="rating" src="new10.png"></td>
+								<td id="pad">Teamwork</td>
+								<td><img id="rating" src="new8.png"></td>
+							</tr>
+							<tr>
+								<td id="pad">Discipline</td>
+								<td><img id="rating" src="new11.png"></td>
+								<td id="pad">Patience</td>
+								<td><img id="rating" src="new11.png"></td>
+								<td id="pad">Endurance</td>
+								<td><img id="rating" src="new10.png"></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			$(function() {
+				$("#profile").hide(2500).delay(1000).show(2500);
+			});
+		</script>
+	</body>
 </html>
